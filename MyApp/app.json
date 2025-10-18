@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/3e4d99df-106e-49f5-9e2a-c0d4debb3a78"
+    },
+    "name": "Hertz",
+    "slug": "MyApp",
+    "version": "1.0.1",
+    "orientation": "landscape",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon-foreground.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hertzapp.test1"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3e4d99df-106e-49f5-9e2a-c0d4debb3a78"
+      }
+    },
+    "runtimeVersion": "1.0.1"
+  },
+  "web": {
+    "bundler": "metro",
+    "output": "static",
+    "favicon": "./assets/images/favicon.png"
+  },
+  "plugins": [
+    "expo-router",
+    [
+      "expo-splash-screen",
+      {
+        "image": "./assets/images/splash-icon.png",
+        "imageWidth": 200,
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      }
+    ]
+  ],
+  "experiments": {
+    "typedRoutes": true
+  }
+}
